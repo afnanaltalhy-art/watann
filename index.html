@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#075b43">
+  <title>وطن يسكن القلوب</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="school">
+    <span class="mini">وزارة التعليم • قطاع الحناكية</span>
+    <strong>الابتدائية والمتوسطة الأولى بصخيبرة</strong>
+    <span>رائدة نشاط المرحلة الابتدائية — أ. أفنان الطلحي</span>
+    <span>مديرة المدرسة — أ. مها الجهني</span>
+  </div>
+  <div class="flag">🇸🇦</div>
+</header>
+
+<section class="hero">
+  <div class="pattern"></div>
+  <div class="heroContent">
+    <div class="badge">المملكة العربية السعودية • وطنٌ نعتز به</div>
+    <div class="symbol">🌴</div>
+    <h1>وطنٌ يسكن <em>القلوب</em></h1>
+    <p>من صخيبرة نكتب للوطن كلماتٍ تشبه فخرنا به؛ مساحة تفاعلية تجمع طالباتنا ومعلماتنا وإدارياتنا وقائدة المدرسة وأولياء الأمور في لوحة وطنية واحدة.</p>
+    <a href="#participate">اكتبي رسالتك للوطن ↓</a>
+    <div class="motifs">
+      <span>هوية</span><i>◆</i>
+      <span>نخلة</span><i>◆</i>
+      <span>همة</span><i>◆</i>
+      <span>انتماء</span><i>◆</i>
+      <span>طموح</span>
+    </div>
+  </div>
+</section>
+
+<section class="story">
+  <span class="orn">✦</span>
+  <h2>هنا… للوطن حكاية</h2>
+  <p>كل رسالة تضيف أثرًا، وكل اسم يصنع جزءًا من جدارنا الوطني. اختاري فئتك، واكتبي ما يسكن قلبك تجاه وطننا.</p>
+  <div class="values">
+    <div><b>🇸🇦</b><strong>فخر</strong><small>بهوية وطننا</small></div>
+    <div><b>🌴</b><strong>جذور</strong><small>راسخة كالنخيل</small></div>
+    <div><b>✦</b><strong>طموح</strong><small>نحو مستقبل أجمل</small></div>
+    <div><b>♡</b><strong>انتماء</strong><small>يجمع مجتمعنا المدرسي</small></div>
+  </div>
+</section>
+
+<main id="participate">
+  <section class="formPanel">
+    <p class="kicker">شاركينا شعورك</p>
+    <h2>رسالة إلى الوطن</h2>
+    <p class="hint">اختاري الشخصية التي تمثلك، ثم اكتبي اسمك ورسالتك.</p>
+    <div id="roles" class="roles"></div>
+    <label>الاسم</label>
+    <input id="name" maxlength="35" placeholder="اكتبي اسمك هنا">
+    <label>رسالتك للوطن</label>
+    <textarea id="msg" maxlength="220" placeholder="وطني بالنسبة لي…"></textarea>
+    <div class="counter"><span id="chars">٠</span> / ٢٢٠</div>
+    <button id="add">أضيفي رسالتي إلى جدار الوطن 🇸🇦</button>
+    <p id="status" class="status"></p>
+  </section>
+
+  <section class="wallPanel">
+    <div class="wallHead">
+      <div>
+        <p class="kicker">أصوات مجتمعنا المدرسي</p>
+        <h2>جدار الوطن</h2>
+      </div>
+      <div class="grand">
+        <b id="total">٠</b>
+        <span>مشاركة</span>
+      </div>
+    </div>
+    <div id="stats" class="stats"></div>
+    <div id="wall" class="wall">
+      <div class="empty">جارٍ تحميل رسائل الوطن…</div>
+    </div>
+  </section>
+</main>
+
+<section class="quote">
+  <div>❝</div>
+  <h2>وطنٌ نعتز بماضيه، ونبني حاضره، ونصنع مستقبله.</h2>
+  <p>دام عزك يا وطن 🇸🇦</p>
+</section>
+
+<footer>
+  <div class="footerPalm">🌴</div>
+  <strong>الابتدائية والمتوسطة الأولى بصخيبرة – قطاع الحناكية</strong>
+  <span>رائدة نشاط المرحلة الابتدائية</span>
+  <b>أ. أفنان الطلحي</b>
+  <span>مديرة المدرسة</span>
+  <b>أ. مها الجهني</b>
+  <small>وطن يسكن القلوب • مساحة وطنية تفاعلية</small>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
